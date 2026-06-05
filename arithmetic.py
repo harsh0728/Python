@@ -41,3 +41,16 @@ y=False
 print("x and y =",x and y)
 print("x or y =",x or y)
 print("not x =",not x)
+
+
+# Type conversion
+a=2
+b=4.23
+
+print (a+b) #5.23
+print (a+int(b)) #6
+
+#Inputs
+num1=int(input("Enter first number: "))
+num2=int(input("Enter second number: "))
+print("Type of sum: ",type(num1+num2),"Sum:",num1+num2)
