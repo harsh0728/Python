@@ -31,3 +31,10 @@ for i in range(2,9): #range(start, stop)
 
 for i in range(1,10,2): #range(start, stop, step)
     print(i)
+
+#pass
+for i in range(5):
+    #empty loop body
+    pass
+
+print("pass Loop completed successfully.")
