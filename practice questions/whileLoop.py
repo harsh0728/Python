@@ -34,3 +34,13 @@ while index<len(lists):
         print("Number found at index: ",index)
         break
     index+=1
+
+#6 sum of first n numbers.
+n=int(input("Enter a number: "))
+
+cnt=1
+sum=0
+while cnt<=n:
+    sum+=cnt
+    cnt+=1
+print("The sum of first ",n," numbers is: ",sum)
