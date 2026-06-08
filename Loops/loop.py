@@ -20,3 +20,14 @@ for char in str:
     print(char)
 else:
     print("Character 'o' not found in the string.")
+
+# Range
+
+for i in range(5): #range(stop)
+    print(i)
+
+for i in range(2,9): #range(start, stop)
+    print(i)
+
+for i in range(1,10,2): #range(start, stop, step)
+    print(i)
