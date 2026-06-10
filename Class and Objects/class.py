@@ -1,18 +1,19 @@
 # Class and Objects
 class Student:
-    def __init__(self,name,marks):                    # Constructor
+    def __init__(self,name,marks):     # Constructor
         self.name=name
         self.marks=marks
         print ("Constructor defined")
 
-    def welcome(self):
-        print("Welcome",self.name)
+    @staticmethod     #decorator
+    def hello():
+        print("Hello there")
 
     def get_marks(self):
         return self.marks
 
 s1=Student("Harsh",92.4) #objects
-s1.welcome()
+s1.hello()
 print(s1.get_marks())
 
 
